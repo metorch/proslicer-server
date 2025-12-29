@@ -1,0 +1,12 @@
+{
+    "name": "proslicer-server",
+    "version": "1.0.0",
+    "description": "ProSlicer 在线激活服务器",
+    "scripts": {
+        "dev": "vercel dev",
+        "deploy": "vercel --prod"
+    },
+    "dependencies": {
+        "@vercel/kv": "^2.0.0"
+    }
+}
